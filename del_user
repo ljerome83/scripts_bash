@@ -1,0 +1,5 @@
+userdel -r ARCHAMBAUD
+userdel -r BAESEL
+userdel -r BLANC
+userdel -r BLANC2
+userdel -r BOUANATI
