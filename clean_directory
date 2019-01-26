@@ -1,0 +1,11 @@
+#!/bin/sh
+repertoire='/var/gpcom-ftp'
+echo $repertoire
+for i in `ls $repertoire`
+do
+for j in {'.bash_logout','.bash_profile','.bashrc','.mozilla'}
+do
+ echo $repertoire/$i/$j
+ rm -rf $repertoire/$i/$j
+done
+done
